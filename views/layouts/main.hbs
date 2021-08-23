@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <title>Smart City Varanasi</title>
+    
+</head>
+<body>
+    <div class="big-container">
+        <div class="container" id="container">
+            {{{ body }}}
+        </div>
+        <hr style="margin: 0%; padding:0%">
+        <div class="control1">
+            
+            <div class="control-element"> <a href="/waste"> <img src="/images/WASTE.png" alt="Waste Logo"> </a> </div>
+            
+            <div class="control-element"> <a href="/pollution"> <img src="/images/POLLUTION.png" alt="Pollution Logo"> </a> </div>
+            
+            <div class="control-element"> <a href="/"> <img src="/images/HOME.jpeg" alt="Home Logo"> </a> </div>
+            
+            <div class="control-element"> <a href="/traffic"> <img src="/images/TRAFFIC.png" alt="Traffic Logo"> </a> </div>
+            
+            <div class="control-element"> <a href="#" id="profileBtn"> <img src="/images/ADMIN.png" alt="Admin Logo"> </a> </div>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            var profileBtn = document.getElementById('profileBtn');
+            profileBtn.href = '/profile/' + localStorage.getItem('userId');   
+        }, 500);
+    </script>
+
+    
+</body>
+</html>
