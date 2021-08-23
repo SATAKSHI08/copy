@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amanscisingh/smartVaranasiNode.git"
+    "url": "git+https://github.com/SATAKSHI08/copy.git"
   },
   "author": "Aman Singh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amanscisingh/smartVaranasiNode/issues"
+    "url": "https://github.com/SATAKSHI08/copy/issues"
   },
-  "homepage": "https://github.com/amanscisingh/smartVaranasiNode#readme",
+  "homepage": "https://github.com/SATAKSHI08/copy#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "connect-mongo": "^4.4.1",
